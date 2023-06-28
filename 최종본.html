@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>짱구는 못말려</title>
+    <style>
+        /* 초기화하기 */
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "Segoe UI", Roboto, "Helvetica Neue", "Arial", sans-serif;
+        }
+        a {
+            text-decoration: none;
+        }
+        img {
+            border: 0;
+        }
+        li {
+            list-style: none;
+        }
+    </style>
+    <style>
+        /* 공통 구성하기 */
+        .container {
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px;
+            padding: 10px;
+        }
+    </style>
+    <style>
+        /* 헤더 구성하기 */
+        #main-header {
+            padding: 10px 5px;
+        }
+        #main-header h1 {
+            font-size: 20px;
+            font-weight: normal;
+            line-height: 27px;
+            color: #222;
+        }
+        #main-header ul {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        }
+        #main-header li {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        #main-header li a {
+            color: #555;
+        }
+        #main-header li.active a {
+            color: black;
+            font-weight: 500;
+        }
+        #main-header label {
+            text-align: center;
+            float: right;
+            width: 40px;
+            height: 27px;
+            line-height: 27px;
+            color: #222;
+            border: 1px solid #222;
+            border-radius: 5px;
+        }
+        #checkbox {
+            display: none;
+        }
+        #checkbox + nav {
+            display: block;
+        }
+        #checkbox:checked + nav {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="main-header">
+        <header class="container">
+            <div>
+                <label for="checkbox">▼</label>
+                <h1>짱구는 못말려 시즌 15</h1>
+            </div>
+            <input id="checkbox" checked="checked" type="checkbox">
+            <nav>
+                <ul>
+                    <li><a href="#">Brand</a></li>
+                    <li class="active"><a href="#">Network</a></li>
+                    <li><a href="#">Company</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div id="main-content">
+        <article class="container">
+            <h1>Lorem ipsum</h1>
+            <p>
+                dolor sit, amet consectetur adipisicing elit. Atque molestiae illum dolore consequuntur blanditiis quaerat facere porro rerum, praesentium, minus reiciendis error ipsam, quod temporibus sed laboriosam ullam. Quam, ea?
+                dolor sit, amet consectetur adipisicing elit. Atque molestiae illum dolore consequuntur blanditiis quaerat facere porro rerum, praesentium, minus reiciendis error ipsam, quod temporibus sed laboriosam ullam. Quam, ea?
+                dolor sit, amet consectetur adipisicing elit. Atque molestiae illum dolore consequuntur blanditiis quaerat facere porro rerum, praesentium, minus reiciendis error ipsam, quod temporibus sed laboriosam ullam. Quam, ea?
+            </p>
+        </article>
+    </div>
+    <div id="sub-content">
+        <article class="container">
+            <h1>시즌 15 2회</h1>
+            <h2>휘둥그레 신짱구</h2>
+            <img src="imgs/신짱구.jpg">
+            <p>
+                얼렁뚱땅 요리조리 빙글빙글 돌아가는 짱구의 하루. 
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis aut, nemo numquam necessitatibus esse odio facilis tempora commodi, pariatur ab corporis explicabo sit eius quia rem minima. Ducimus, sint nam.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis aut, nemo numquam necessitatibus esse odio facilis tempora commodi, pariatur ab corporis explicabo sit eius quia rem minima. Ducimus, sint nam.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis aut, nemo numquam necessitatibus esse odio facilis tempora commodi, pariatur ab corporis explicabo sit eius quia rem minima. Ducimus, sint nam.
+            </p>
+            <br>
+            <h1>시즌 15 3회</h1>
+            <h2>개과천선 신짱구</h2>
+            <img src="imgs/흰둥이짱구.jpg">
+            <p>
+                어쩌다가 흰둥이가 되었는지 모르겠네. 
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis aut, nemo numquam necessitatibus esse odio facilis tempora commodi, pariatur ab corporis explicabo sit eius quia rem minima. Ducimus, sint nam.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis aut, nemo numquam necessitatibus esse odio facilis tempora commodi, pariatur ab corporis explicabo sit eius quia rem minima. Ducimus, sint nam.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis aut, nemo numquam necessitatibus esse odio facilis tempora commodi, pariatur ab corporis explicabo sit eius quia rem minima. Ducimus, sint nam.
+            </p>
+        </article>
+    </div>
+    <div id="main-footer">
+        <footer class="container">
+            <div>© CJ ENM. All Rights Reserved.</div>
+        </footer>
+    </div>
+</body>
+</html>
